@@ -1,5 +1,5 @@
 /* getch - emulates the function from DOS / Windows. Fetches a single character from stdin, without waiting for
- *			a terminating newline character.
+ *			a terminating newline character. Implemented for Linux / Mac. Tested on Mac.
  */
 #include <stdio.h>
 #include <termios.h>	//port settings 
